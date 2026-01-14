@@ -404,6 +404,9 @@ public class Calculator extends JFrame {
         row.removeButton.setToolTipText("Remove this course");
         row.removeButton.setMargin(new Insets(2, 8, 2, 8));
         row.removeButton.setPreferredSize(new Dimension(REMOVE_WIDTH, 26));
+        row.removeButton.setFocusPainted(false);
+        row.removeButton.setFont(baseFont.deriveFont(Font.BOLD));
+
         gbc.gridx = 6;
         row.panel.add(row.removeButton, gbc);
 
@@ -864,11 +867,13 @@ public class Calculator extends JFrame {
         headerPanel.add(Box.createVerticalStrut(4));
         headerPanel.add(subtitleLabel);
 
-        JPanel cardsPanel = new JPanel(new GridLayout(1, 2, 12, 0));
+        JPanel cardsPanel = new JPanel(new GridLayout(2, 2, 12, 12));
         cardsPanel.setBorder(new EmptyBorder(12, 16, 8, 16));
 
-        cardsPanel.add(createResultCard("GPA", gpa, labelFont, valueFont));
-        cardsPanel.add(createResultCard("CGPA", cgpa, labelFont, valueFont));
+        cardsPanel.add(createResultCard("Term Credits", (double) gpaCreditCount, labelFont, valueFont));
+        cardsPanel.add(createResultCard("Total Credits", (double) cgpaCreditCount, labelFont, valueFont));
+        cardsPanel.add(createResultCard("Term GPA", gpa, labelFont, valueFont));
+        cardsPanel.add(createResultCard("Updated CGPA", cgpa, labelFont, valueFont));
 
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT));
         JButton closeButton = new JButton("Close");
@@ -880,7 +885,7 @@ public class Calculator extends JFrame {
         dialog.add(buttonPanel, BorderLayout.SOUTH);
 
         dialog.pack();
-        dialog.setSize(380, dialog.getHeight());
+        dialog.setSize(420, dialog.getHeight());
         dialog.setLocationRelativeTo(this);
         dialog.setVisible(true);
     }
@@ -899,7 +904,9 @@ public class Calculator extends JFrame {
         titleLabel.setForeground(new Color(80, 80, 80));
         titleLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 
-        String displayValue = value == null ? "--" : String.format("%.2f", value);
+        String displayValue = value == null ? "--"
+                : (title.contains("Credits") ? String.format("%d", value.intValue())
+                        : String.format("%.2f", value));
         JLabel valueLabel = new JLabel(displayValue);
         valueLabel.setFont(valueFont);
         valueLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
