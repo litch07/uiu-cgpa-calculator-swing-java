@@ -10,7 +10,6 @@ A modern desktop application for calculating term GPA and updated CGPA for Unite
 
 - [Overview](#overview)
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Building and Running](#building-and-running)
@@ -38,12 +37,6 @@ This lightweight desktop application requires no internet connection and stores 
 - 🎨 **Professional Results Display**: Clean dialog showing calculated GPA and CGPA
 - 🔒 **Privacy-First**: No data storage, no internet required
 
-## Screenshots
-
-![UIU CGPA Calculator Interface](https://via.placeholder.com/800x500.png?text=UIU+CGPA+Calculator)
-
-> Add your application screenshots here after uploading to the repository
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
@@ -60,11 +53,8 @@ Before you begin, ensure you have the following installed on your system:
 
 ### Option 1: Clone the Repository
 
-```bash
-# Clone the repository
+```terminal
 git clone https://github.com/litch07/uiu-cgpa-calculator-swing-java.git
-
-# Navigate to the project directory
 cd uiu-cgpa-calculator-swing-java
 ```
 
@@ -79,13 +69,13 @@ cd uiu-cgpa-calculator-swing-java
 
 ### Compile the Application
 
-```bash
+```terminal
 javac *.java
 ```
 
 ### Run the Application
 
-```bash
+```terminal
 java Main
 ```
 
@@ -176,15 +166,15 @@ Contributions are welcome! Here's how you can help:
 
 1. **Fork** the repository
 2. **Create** a feature branch:
-   ```bash
+   ```terminal
    git checkout -b feature/YourFeatureName
    ```
 3. **Commit** your changes:
-   ```bash
+   ```terminal
    git commit -m "Add: Brief description of your changes"
    ```
 4. **Push** to your branch:
-   ```bash
+   ```terminal
    git push origin feature/YourFeatureName
    ```
 5. **Open** a Pull Request
