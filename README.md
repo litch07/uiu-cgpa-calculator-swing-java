@@ -51,11 +51,11 @@ This lightweight desktop application requires no internet connection and stores 
 
 ### Option 1: Windows Portable Executable (Recommended for Windows Users)
 
-**No Java installation required!** The portable version includes everything you need.
+**No Java installation required!** The portable version includes everything you need (~45 MB).
 
 1. Go to the [Releases](https://github.com/litch07/uiu-cgpa-calculator-swing-java/releases) page
 2. Download `UIU-CGPA-Calculator-Windows-Portable.zip`
-3. Extract the ZIP file
+3. Extract the ZIP file to any location
 4. Run `UIU-CGPA-Calculator.exe`
 
 ### Option 2: Cross-Platform JAR (Windows/macOS/Linux)
@@ -63,7 +63,7 @@ This lightweight desktop application requires no internet connection and stores 
 **Requirements**: Java Runtime Environment (JRE) 8 or higher
 
 1. Go to the [Releases](https://github.com/litch07/uiu-cgpa-calculator-swing-java/releases) page
-2. Download `UIU-CGPA-Calculator.jar`
+2. Download `UIU-CGPA-Calculator.jar` (~13 KB)
 3. Double-click the JAR file to run, or use the terminal:
    ```terminal
    java -jar UIU-CGPA-Calculator.jar
