@@ -8,8 +8,12 @@ bin/
 target/
 build/
 
-# Allow release JAR
+# Allow release files
 !UIU-CGPA-Calculator.jar
+!UIU-CGPA-Calculator-Windows-Portable.zip
+
+# jpackage build directory
+UIU-CGPA-Calculator/
 
 # IDE
 .idea/
