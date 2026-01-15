@@ -39,7 +39,7 @@ A modern, professional desktop application for calculating term GPA and updated 
 
 **Perfect for**: Users who already have Java installed
 
-- **File**: `UIU-CGPA-Calculator.jar` (13 KB)
+- **File**: `UIU-CGPA-Calculator.jar` (20 KB)
 - **Requirements**: Java Runtime Environment (JRE) 8+
 - **Installation**: 
   1. Download the JAR file
@@ -110,7 +110,7 @@ java Main
 - **GUI Framework**: Swing
 - **JDK Version**: 8+
 - **Minimum Window Size**: 850×620 pixels
-- **JAR Size**: 13 KB
+- **JAR Size**: 20 KB
 - **Windows Portable Size**: 45 MB (includes bundled JRE)
 - **Operating Systems Supported**: Windows 7+, macOS 10.10+, Linux
 
@@ -141,7 +141,7 @@ None reported in v1.0.0
 - Windows 7, macOS 10.10, or any modern Linux distribution
 - Display: 850×620 resolution
 - RAM: 256 MB
-- Disk: 50 MB (for portable version) or 13 KB (for JAR)
+- Disk: 50 MB (for portable version) or 20 KB (for JAR)
 
 **Recommended**:
 - Windows 10+, macOS 11+, or Ubuntu 20.04+

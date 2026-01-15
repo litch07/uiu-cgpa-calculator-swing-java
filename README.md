@@ -63,7 +63,7 @@ This lightweight desktop application requires no internet connection and stores 
 **Requirements**: Java Runtime Environment (JRE) 8 or higher
 
 1. Go to the [Releases](https://github.com/litch07/uiu-cgpa-calculator-swing-java/releases) page
-2. Download `UIU-CGPA-Calculator.jar` (~13 KB)
+2. Download `UIU-CGPA-Calculator.jar` (~20 KB)
 3. Double-click the JAR file to run, or use the terminal:
    ```terminal
    java -jar UIU-CGPA-Calculator.jar
