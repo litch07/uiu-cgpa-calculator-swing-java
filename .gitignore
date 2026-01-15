@@ -1,6 +1,5 @@
 # Compiled output
 *.class
-*.jar
 *.war
 *.ear
 *.jmod
@@ -8,6 +7,9 @@ out/
 bin/
 target/
 build/
+
+# Allow release JAR
+!UIU-CGPA-Calculator.jar
 
 # IDE
 .idea/

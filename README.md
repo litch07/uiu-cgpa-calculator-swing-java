@@ -39,11 +39,9 @@ This lightweight desktop application requires no internet connection and stores 
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed on your system:
-
-- **Java Development Kit (JDK)**: Version 8 or higher
+- **Java Runtime Environment (JRE)**: Version 8 or higher
   - Download from [Oracle JDK](https://www.oracle.com/java/technologies/downloads/) or [OpenJDK](https://openjdk.org/)
-  - Verify installation: `java -version` and `javac -version`
+  - Verify installation: `java -version`
   
 - **Operating System**: Windows 7+, macOS 10.10+, or Linux (any modern distribution)
 
@@ -51,37 +49,32 @@ Before you begin, ensure you have the following installed on your system:
 
 ## Installation
 
-### Option 1: Clone the Repository
+### Option 1: Download Pre-built Application (Recommended)
+
+1. Go to the [Releases](https://github.com/litch07/uiu-cgpa-calculator-swing-java/releases) page
+2. Download the latest `UIU-CGPA-Calculator.jar` file
+3. Double-click the JAR file to run, or use the terminal:
+   ```terminal
+   java -jar UIU-CGPA-Calculator.jar
+   ```
+
+**Note**: Ensure you have Java installed on your system. The JAR file is cross-platform and works on Windows, macOS, and Linux.
+
+### Option 2: Clone and Build from Source
+
+**Requirements**: Java Development Kit (JDK) 8 or higher
 
 ```terminal
 git clone https://github.com/litch07/uiu-cgpa-calculator-swing-java.git
 cd uiu-cgpa-calculator-swing-java
 ```
 
-### Option 2: Download ZIP
-
-1. Click the green **Code** button at the top of this repository
-2. Select **Download ZIP**
-3. Extract the ZIP file to your desired location
-4. Open a terminal/command prompt in the extracted folder
-
-## Building and Running
-
-### Compile the Application
+**Compile and run:**
 
 ```terminal
 javac *.java
-```
-
-### Run the Application
-
-```terminal
 java Main
 ```
-
-**Note**: Ensure you're in the project directory when running these commands.
-
-**Note**: Ensure you're in the project directory when running these commands.
 
 ## Usage
 
