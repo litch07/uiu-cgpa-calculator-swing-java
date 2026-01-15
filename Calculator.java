@@ -291,7 +291,7 @@ public class Calculator extends JFrame {
         gbc.gridx = 1;
         headerRow.add(creditHeader, gbc);
 
-        JLabel gradeHeader = createHeaderLabel("Grade", sectionFont, GRADE_WIDTH);
+        JLabel gradeHeader = createHeaderLabel("Expected Grade", sectionFont, GRADE_WIDTH);
         gbc.gridx = 2;
         headerRow.add(gradeHeader, gbc);
 
